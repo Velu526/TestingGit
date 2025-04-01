@@ -4,18 +4,22 @@ public class AlSet {
 
 	public static void main(String[] args) {
 
-		int[] a = new int[5];
+		int[] a = new int[7];
 
 		a[0] = 10;
 		a[1] = 20;
 		a[2] = 30;
 		a[3] = 40;
 		a[4] = 50;
+		a[5] = 60;
+		a[6] = 70;
+		
 
 		System.out.println(a[0]);
 		
 		for (int i : a) {
 			System.out.println(i);
+			
 			
 		}
 
